@@ -38,4 +38,4 @@ PROMPT='
 %{$fg[magenta]%} \
 $(rvm-prompt v) \
 %{$GIT_PROMPT_INFO%}$(git_prompt_info)%{$GIT_DIRTY_COLOR%}$(git_prompt_status)$(git_prompt_ahead)
-%(!.%{$fg_bold[red]%}#.%{$fg_bold[green]%}❯)%{$reset_color%} '
+%(!.%{$fg_bold[red]%}#.%{$fg_bold[red]%}✗✗✗)%{$reset_color%} '
