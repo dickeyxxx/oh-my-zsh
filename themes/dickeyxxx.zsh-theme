@@ -30,7 +30,7 @@ ZSH_THEME_GIT_PROMPT_DELETED="%{$FG[160]%}✖%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_RENAMED="%{$FG[220]%}➜%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_UNMERGED="%{$FG[082]%}═%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$FG[190]%}✭%{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_AHEAD=" %{$RED%}(!)"
+ZSH_THEME_GIT_PROMPT_AHEAD=" %{$RED%}⇪"
 
 PROMPT='
 %{$orange%}%n@%m \
