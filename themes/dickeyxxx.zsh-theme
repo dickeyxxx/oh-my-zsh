@@ -30,7 +30,7 @@ ZSH_THEME_GIT_PROMPT_DELETED="%{$FG[160]%}✖%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_RENAMED="%{$FG[220]%}➜%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_UNMERGED="%{$FG[082]%}═%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$FG[190]%}✭%{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_AHEAD=" %{$RED%}⇪"
+ZSH_THEME_GIT_PROMPT_AHEAD=" %{$fg[red]%}⇪"
 
 PROMPT='
 %{$orange%}%n@%m \
@@ -38,4 +38,4 @@ PROMPT='
 %{$fg[magenta]%} \
 $(rvm-prompt v) \
 %{$GIT_PROMPT_INFO%}$(git_prompt_info)%{$GIT_DIRTY_COLOR%}$(git_prompt_status)$(git_prompt_ahead)
-%(!.%{$fg_bold[red]%}#.%{$fg_bold[red]%}✗✗✗)%{$reset_color%} '
+%(!.%{$fg_bold[red]%}#.%{$fg[red]%}✗✗✗)%{$reset_color%} '
